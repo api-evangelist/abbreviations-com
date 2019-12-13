@@ -1,0 +1,68 @@
+{
+    "name": "Abbreviations.com",
+    "description": "The Web's largest and most authoritative acronyms and abbreviations resource.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Top_logo_abbreviations_com.png",
+    "tags": [
+        "api provider",
+        "content",
+        "have api",
+        "no api definition",
+        "profile",
+        "thesaurus"
+    ],
+    "created": "2019-12-12",
+    "modified": "2019-12-12",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/abbreviations-com\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Abbreviations.com",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Top_logo_abbreviations_com.png",
+            "humanURL": "http:\/\/www.abbreviations.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/abbreviations-com-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/abbreviations-com-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/www.stands4.com\/services"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/stands4"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/stands4"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/www.abbreviations.com\/api.php"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/justadded"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.abbreviations.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.abbreviations.com\/definitions_api.asp"
+        }
+    ]
+}

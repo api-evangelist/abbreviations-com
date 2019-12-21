@@ -10,36 +10,16 @@
         "profile",
         "thesaurus"
     ],
-    "created": "2019-12-18",
-    "modified": "2019-12-18",
+    "created": "2019-12-20",
+    "modified": "2019-12-20",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/abbreviations-com\/master\/apis.json",
     "specificationVersion": "0.14",
-    "apis": [
-        {
-            "name": "Abbreviations.com",
-            "description": null,
-            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Top_logo_abbreviations_com.png",
-            "humanURL": "http:\/\/www.abbreviations.com\/",
-            "baseURL": "",
-            "tags": [],
-            "properties": [
-                {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/abbreviations-com-openapi.json"
-                },
-                {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/abbreviations-com-postman-collection.json"
-                }
-            ]
-        }
-    ],
-    "include": [],
+    "apis": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Base",
             "url": "http:\/\/www.stands4.com\/services"

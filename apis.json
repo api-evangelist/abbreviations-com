@@ -7,14 +7,35 @@
         "content",
         "have api",
         "no api definition",
+        "postman collections",
         "profile",
         "thesaurus"
     ],
-    "created": "2019-12-20",
-    "modified": "2019-12-20",
+    "created": "2019-12-22",
+    "modified": "2019-12-22",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/abbreviations-com\/master\/apis.json",
     "specificationVersion": "0.14",
-    "apis": [],
+    "apis": [
+        {
+            "name": "Abbrebiations STANDS4",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/Top_logo_abbreviations_com.png",
+            "humanURL": "http:\/\/www.abbreviations.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/abbreviations-com\/master\/abbrebiations-stands4-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/abbreviations-com\/master\/abbrebiations-stands4-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
     "x-common": [
         {
             "type": "APIs.json",

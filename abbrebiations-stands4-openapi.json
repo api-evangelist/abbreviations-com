@@ -1,0 +1,460 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Abbrebiations STANDS4",
+        "description": "Our API interfaces let developers design computer programs and web applications that interact directly with the STANDS4 content and services. Use our simple, multi-platform REST calls to instantly get classified abbreviations definitions, natural-language conversion calculations and zip code information with full flexibility.\n\nDeveloper URL: [https:\/\/www.abbreviations.com\/api.php](https:\/\/www.abbreviations.com\/api.php)",
+        "termsOfService": ""
+    },
+    "servers": [],
+    "paths": {
+        "\/services\/v2\/ana.php": {
+            "GET": {
+                "summary": "Get Anagrams",
+                "description": "The Anagrams API from STANDS4 enables you to get classified anagrams and scrambles content for a given term. Use the Anagrams REST API to customize your request with parameters such as category id, sort by, search type or a combination of any of them.",
+                "operationId": "GetAnagrams",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "term",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/grammar.php": {
+            "GET": {
+                "summary": "Get Grammar",
+                "description": "The Grammar API from STANDS4 is a web service for checking the spelling and style of text in many languages.",
+                "operationId": "GetGrammar",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "text",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "lang",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/literature.php": {
+            "GET": {
+                "summary": "Get Literature",
+                "description": "The Literature API from STANDS4 enables you to get instanst data from our vast literature collection.",
+                "operationId": "GetLiterature",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "term",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/poetry.php": {
+            "GET": {
+                "summary": "Get Poetry",
+                "description": "The Poetry API from STANDS4 enables you to get instanst data from our vast poetry collection.",
+                "operationId": "GetPoetry",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "term",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/scripts.php": {
+            "GET": {
+                "summary": "Get Scripts",
+                "description": "The Scripts API from STANDS4 enables you to get instanst data from our vast scripts collection.",
+                "operationId": "GetScripts",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "term",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/abbr.php": {
+            "GET": {
+                "summary": "Get Abbreviations",
+                "description": "The Abbrevations API from STANDS4 enables you to get classified acronyms and abbreviations content for a given term. Use the Abbreviations REST API to customize your request with parameters such as category id, sort by, search type or a combination of any of them.",
+                "operationId": "GetAbbreviations",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "term",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "sortby",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "searchtype",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/syno.php": {
+            "GET": {
+                "summary": "Get Synonyms",
+                "description": "The Synonyms API from STANDS4 enables you to get Synonyms, Thesaurus and Antonyms information for a given word.",
+                "operationId": "GetSynonyms",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "word",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/lyrics.php": {
+            "GET": {
+                "summary": "Get Lyrics",
+                "description": "The Lyrics API from STANDS4 enables you to get album, artist and songs information for a given search term \u2014 along with direct links to the respected object pages on Lyrics.com.",
+                "operationId": "GetLyrics",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "term",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/conv.php": {
+            "GET": {
+                "summary": "Get Conversions",
+                "description": "The Convert.net Conversions API enables you to get instant and accurate answers to complex mathematical expressions and thousands of conversion related queries that can be posted in a natural language representation without any strict syntax. Please visit our conversions help page for more information.",
+                "operationId": "GetConversions",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "expression",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/phrases.php": {
+            "GET": {
+                "summary": "Get Phrases",
+                "description": "The Phrases API from STANDS4 enables you to programmatically get explanations for common phrases, idioms and casual expressions.",
+                "operationId": "GetPhrases",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "phrase",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/zip.php": {
+            "GET": {
+                "summary": "Get ZIP Codes",
+                "description": "The ZIP Codes API from STANDS4 enables you to get the US location behind the zip code.",
+                "operationId": "GetZipCodes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "zip",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/rhymes.php": {
+            "GET": {
+                "summary": "Get Rhymes",
+                "description": "The Rhymes API from STANDS4 enables you to programmatically get rhyming words for a given term.",
+                "operationId": "GetRhymes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "term",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/quotes.php": {
+            "GET": {
+                "summary": "Get Quotes",
+                "description": "The Quotes API from STANDS4 enables you to get famous quotations data by author or subject. Use the Quotes REST API to enrich your website or application content and features.",
+                "operationId": "GetQuotes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "searchtype",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "query",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/services\/v2\/defs.php": {
+            "GET": {
+                "summary": "Get Dictionary Definitions",
+                "description": "The Dictionary Definitions API from STANDS4 enables you to get dictionary definitions information for a given word.",
+                "operationId": "GetDictionaryDefinitions",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "uid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "tokenid",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "word",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
